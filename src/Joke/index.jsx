@@ -1,16 +1,9 @@
-import React, { useState } from 'react';
-import './style.css';
+import React, { useState } from "react";
+import "./style.css";
 
 const Joke = (props) => {
   const [countUp, setCountUp] = useState(props.likes);
   const [countDown, setCountDown] = useState(props.dislikes);
-
-  // const handleClickUp = () => {
-  //   setCountUp(countUp + 1);
-  // };
-  // const handleClickDown = () => {
-  //   setCountDown(countDown + 1);
-  // };
 
   return (
     <>
